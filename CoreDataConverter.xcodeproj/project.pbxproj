@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		270EA58D16D30F2600BD7DDE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270EA58C16D30F2600BD7DDE /* Cocoa.framework */; };
+		270EA59716D30F2600BD7DDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 270EA59516D30F2600BD7DDE /* InfoPlist.strings */; };
+		270EA59916D30F2600BD7DDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 270EA59816D30F2600BD7DDE /* main.m */; };
+		270EA59D16D30F2600BD7DDE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 270EA59B16D30F2600BD7DDE /* Credits.rtf */; };
+		270EA5A016D30F2600BD7DDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 270EA59F16D30F2600BD7DDE /* AppDelegate.m */; };
+		270EA5A316D30F2600BD7DDE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 270EA5A116D30F2600BD7DDE /* MainMenu.xib */; };
+		270EA5A616D30F2600BD7DDE /* CoreDataConverter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 270EA5A416D30F2600BD7DDE /* CoreDataConverter.xcdatamodeld */; };
+		270EA5AE16D30F2600BD7DDE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270EA5AD16D30F2600BD7DDE /* SenTestingKit.framework */; };
+		270EA5AF16D30F2600BD7DDE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270EA58C16D30F2600BD7DDE /* Cocoa.framework */; };
+		270EA5B716D30F2600BD7DDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 270EA5B516D30F2600BD7DDE /* InfoPlist.strings */; };
+		270EA5BA16D30F2600BD7DDE /* CoreDataConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 270EA5B916D30F2600BD7DDE /* CoreDataConverterTests.m */; };
+		270EA5C716D30F6800BD7DDE /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 270EA5C516D30F6800BD7DDE /* MasterViewController.m */; };
+		270EA5C816D30F6800BD7DDE /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 270EA5C516D30F6800BD7DDE /* MasterViewController.m */; };
+		270EA5C916D30F6800BD7DDE /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 270EA5C616D30F6800BD7DDE /* MasterViewController.xib */; };
+		270EA5CA16D30F6800BD7DDE /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 270EA5C616D30F6800BD7DDE /* MasterViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		270EA5B016D30F2600BD7DDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 270EA58116D30F2600BD7DDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 270EA58816D30F2600BD7DDE;
+			remoteInfo = CoreDataConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		270EA58916D30F2600BD7DDE /* CoreDataConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		270EA58C16D30F2600BD7DDE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		270EA58F16D30F2600BD7DDE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		270EA59016D30F2600BD7DDE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		270EA59116D30F2600BD7DDE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		270EA59416D30F2600BD7DDE /* CoreDataConverter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataConverter-Info.plist"; sourceTree = "<group>"; };
+		270EA59616D30F2600BD7DDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		270EA59816D30F2600BD7DDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		270EA59A16D30F2600BD7DDE /* CoreDataConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreDataConverter-Prefix.pch"; sourceTree = "<group>"; };
+		270EA59C16D30F2600BD7DDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		270EA59E16D30F2600BD7DDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		270EA59F16D30F2600BD7DDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		270EA5A216D30F2600BD7DDE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		270EA5A516D30F2600BD7DDE /* CoreDataConverter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataConverter.xcdatamodel; sourceTree = "<group>"; };
+		270EA5AC16D30F2600BD7DDE /* CoreDataConverterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataConverterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		270EA5AD16D30F2600BD7DDE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		270EA5B416D30F2600BD7DDE /* CoreDataConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataConverterTests-Info.plist"; sourceTree = "<group>"; };
+		270EA5B616D30F2600BD7DDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		270EA5B816D30F2600BD7DDE /* CoreDataConverterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataConverterTests.h; sourceTree = "<group>"; };
+		270EA5B916D30F2600BD7DDE /* CoreDataConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataConverterTests.m; sourceTree = "<group>"; };
+		270EA5C416D30F6800BD7DDE /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		270EA5C516D30F6800BD7DDE /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		270EA5C616D30F6800BD7DDE /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MasterViewController.xib; path = ../ViewControllers/MasterViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		270EA58616D30F2600BD7DDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270EA58D16D30F2600BD7DDE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270EA5A816D30F2600BD7DDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270EA5AE16D30F2600BD7DDE /* SenTestingKit.framework in Frameworks */,
+				270EA5AF16D30F2600BD7DDE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		270EA58016D30F2600BD7DDE = {
+			isa = PBXGroup;
+			children = (
+				270EA59216D30F2600BD7DDE /* CoreDataConverter */,
+				270EA5B216D30F2600BD7DDE /* CoreDataConverterTests */,
+				270EA58B16D30F2600BD7DDE /* Frameworks */,
+				270EA58A16D30F2600BD7DDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		270EA58A16D30F2600BD7DDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				270EA58916D30F2600BD7DDE /* CoreDataConverter.app */,
+				270EA5AC16D30F2600BD7DDE /* CoreDataConverterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		270EA58B16D30F2600BD7DDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				270EA58C16D30F2600BD7DDE /* Cocoa.framework */,
+				270EA5AD16D30F2600BD7DDE /* SenTestingKit.framework */,
+				270EA58E16D30F2600BD7DDE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		270EA58E16D30F2600BD7DDE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				270EA58F16D30F2600BD7DDE /* AppKit.framework */,
+				270EA59016D30F2600BD7DDE /* CoreData.framework */,
+				270EA59116D30F2600BD7DDE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		270EA59216D30F2600BD7DDE /* CoreDataConverter */ = {
+			isa = PBXGroup;
+			children = (
+				270EA5CB16D30F8600BD7DDE /* XIBs */,
+				270EA5C316D30F4F00BD7DDE /* ViewControllers */,
+				270EA59E16D30F2600BD7DDE /* AppDelegate.h */,
+				270EA59F16D30F2600BD7DDE /* AppDelegate.m */,
+				270EA5A416D30F2600BD7DDE /* CoreDataConverter.xcdatamodeld */,
+				270EA59316D30F2600BD7DDE /* Supporting Files */,
+			);
+			path = CoreDataConverter;
+			sourceTree = "<group>";
+		};
+		270EA59316D30F2600BD7DDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				270EA59416D30F2600BD7DDE /* CoreDataConverter-Info.plist */,
+				270EA59516D30F2600BD7DDE /* InfoPlist.strings */,
+				270EA59816D30F2600BD7DDE /* main.m */,
+				270EA59A16D30F2600BD7DDE /* CoreDataConverter-Prefix.pch */,
+				270EA59B16D30F2600BD7DDE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		270EA5B216D30F2600BD7DDE /* CoreDataConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				270EA5B816D30F2600BD7DDE /* CoreDataConverterTests.h */,
+				270EA5B916D30F2600BD7DDE /* CoreDataConverterTests.m */,
+				270EA5B316D30F2600BD7DDE /* Supporting Files */,
+			);
+			path = CoreDataConverterTests;
+			sourceTree = "<group>";
+		};
+		270EA5B316D30F2600BD7DDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				270EA5B416D30F2600BD7DDE /* CoreDataConverterTests-Info.plist */,
+				270EA5B516D30F2600BD7DDE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		270EA5C316D30F4F00BD7DDE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				270EA5C416D30F6800BD7DDE /* MasterViewController.h */,
+				270EA5C516D30F6800BD7DDE /* MasterViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		270EA5CB16D30F8600BD7DDE /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				270EA5A116D30F2600BD7DDE /* MainMenu.xib */,
+				270EA5C616D30F6800BD7DDE /* MasterViewController.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		270EA58816D30F2600BD7DDE /* CoreDataConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 270EA5BD16D30F2600BD7DDE /* Build configuration list for PBXNativeTarget "CoreDataConverter" */;
+			buildPhases = (
+				270EA58516D30F2600BD7DDE /* Sources */,
+				270EA58616D30F2600BD7DDE /* Frameworks */,
+				270EA58716D30F2600BD7DDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreDataConverter;
+			productName = CoreDataConverter;
+			productReference = 270EA58916D30F2600BD7DDE /* CoreDataConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		270EA5AB16D30F2600BD7DDE /* CoreDataConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 270EA5C016D30F2600BD7DDE /* Build configuration list for PBXNativeTarget "CoreDataConverterTests" */;
+			buildPhases = (
+				270EA5A716D30F2600BD7DDE /* Sources */,
+				270EA5A816D30F2600BD7DDE /* Frameworks */,
+				270EA5A916D30F2600BD7DDE /* Resources */,
+				270EA5AA16D30F2600BD7DDE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				270EA5B116D30F2600BD7DDE /* PBXTargetDependency */,
+			);
+			name = CoreDataConverterTests;
+			productName = CoreDataConverterTests;
+			productReference = 270EA5AC16D30F2600BD7DDE /* CoreDataConverterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		270EA58116D30F2600BD7DDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Mike Sabo";
+			};
+			buildConfigurationList = 270EA58416D30F2600BD7DDE /* Build configuration list for PBXProject "CoreDataConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 270EA58016D30F2600BD7DDE;
+			productRefGroup = 270EA58A16D30F2600BD7DDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				270EA58816D30F2600BD7DDE /* CoreDataConverter */,
+				270EA5AB16D30F2600BD7DDE /* CoreDataConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		270EA58716D30F2600BD7DDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270EA59716D30F2600BD7DDE /* InfoPlist.strings in Resources */,
+				270EA59D16D30F2600BD7DDE /* Credits.rtf in Resources */,
+				270EA5A316D30F2600BD7DDE /* MainMenu.xib in Resources */,
+				270EA5C916D30F6800BD7DDE /* MasterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270EA5A916D30F2600BD7DDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270EA5B716D30F2600BD7DDE /* InfoPlist.strings in Resources */,
+				270EA5CA16D30F6800BD7DDE /* MasterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		270EA5AA16D30F2600BD7DDE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		270EA58516D30F2600BD7DDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270EA59916D30F2600BD7DDE /* main.m in Sources */,
+				270EA5A016D30F2600BD7DDE /* AppDelegate.m in Sources */,
+				270EA5A616D30F2600BD7DDE /* CoreDataConverter.xcdatamodeld in Sources */,
+				270EA5C716D30F6800BD7DDE /* MasterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270EA5A716D30F2600BD7DDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270EA5BA16D30F2600BD7DDE /* CoreDataConverterTests.m in Sources */,
+				270EA5C816D30F6800BD7DDE /* MasterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		270EA5B116D30F2600BD7DDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 270EA58816D30F2600BD7DDE /* CoreDataConverter */;
+			targetProxy = 270EA5B016D30F2600BD7DDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		270EA59516D30F2600BD7DDE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				270EA59616D30F2600BD7DDE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		270EA59B16D30F2600BD7DDE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				270EA59C16D30F2600BD7DDE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		270EA5A116D30F2600BD7DDE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				270EA5A216D30F2600BD7DDE /* en */,
+			);
+			name = MainMenu.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		270EA5B516D30F2600BD7DDE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				270EA5B616D30F2600BD7DDE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		270EA5BB16D30F2600BD7DDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		270EA5BC16D30F2600BD7DDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		270EA5BE16D30F2600BD7DDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataConverter/CoreDataConverter-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataConverter/CoreDataConverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		270EA5BF16D30F2600BD7DDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataConverter/CoreDataConverter-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataConverter/CoreDataConverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		270EA5C116D30F2600BD7DDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoreDataConverter.app/Contents/MacOS/CoreDataConverter";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataConverter/CoreDataConverter-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataConverterTests/CoreDataConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		270EA5C216D30F2600BD7DDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoreDataConverter.app/Contents/MacOS/CoreDataConverter";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataConverter/CoreDataConverter-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataConverterTests/CoreDataConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		270EA58416D30F2600BD7DDE /* Build configuration list for PBXProject "CoreDataConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270EA5BB16D30F2600BD7DDE /* Debug */,
+				270EA5BC16D30F2600BD7DDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		270EA5BD16D30F2600BD7DDE /* Build configuration list for PBXNativeTarget "CoreDataConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270EA5BE16D30F2600BD7DDE /* Debug */,
+				270EA5BF16D30F2600BD7DDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		270EA5C016D30F2600BD7DDE /* Build configuration list for PBXNativeTarget "CoreDataConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270EA5C116D30F2600BD7DDE /* Debug */,
+				270EA5C216D30F2600BD7DDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		270EA5A416D30F2600BD7DDE /* CoreDataConverter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				270EA5A516D30F2600BD7DDE /* CoreDataConverter.xcdatamodel */,
+			);
+			currentVersion = 270EA5A516D30F2600BD7DDE /* CoreDataConverter.xcdatamodel */;
+			path = CoreDataConverter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 270EA58116D30F2600BD7DDE /* Project object */;
+}
